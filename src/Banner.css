@@ -1,0 +1,49 @@
+.banner{
+    height: 55vh;
+    /* border: 1px solid black; */
+    background-image: url("https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    /* background-size:cover;
+    background-repeat: no-repeat;
+    background-position:initial; */
+    position: relative;
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.banner_info{
+    /* position: relative; */
+    /* padding: 5px; */
+    top: 20%;
+    left: 10%;
+    color: white;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    /* transition:cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s ease-in-out; */
+}
+
+.banner_info button{
+    margin-top: 290px;
+    /* margin-left: 5px; */
+    background-color: rgb(250, 116, 116);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 95%;
+    margin-left: 10px;
+   
+    }
+
+    .banner_info button:active {
+        transform: scale(0.95);
+        background-color: rgb(200, 80, 80);
+    }
+    .banner_info button:hover {
+        background-color: rgb(200, 80, 80);
+    }
+   
+
